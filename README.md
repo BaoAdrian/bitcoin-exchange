@@ -1,7 +1,7 @@
 # Bitcoin_Exchange
-
+Basic bitcoin exchange rate tracker developed using Swift 4 in Xcode 9.4.1. 
 Project made to view the current, real-time exchange rate of Bitcoin in a variety of currencies including:
-- AUD, BRL, CAD, CNY, EUR, GBP, HKD, IDR, ILS, INR, JPY, MXN, NOK, NZD, PLN, RON, RUB, SEK, SGD, USD, ZAR
+<li> AUD, BRL, CAD, CNY, EUR, GBP, HKD, IDR, ILS, INR, JPY, MXN, NOK, NZD, PLN, RON, RUB, SEK, SGD, USD, ZAR </li>
 
 Completed as an assignment for a course utilizing introductory concepts of data retrieval through API requests.
 
