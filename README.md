@@ -4,3 +4,12 @@ Project made to view the current, real-time exchange rate of Bitcoin in a variet
 - AUD, BRL, CAD, CNY, EUR, GBP, HKD, IDR, ILS, INR, JPY, MXN, NOK, NZD, PLN, RON, RUB, SEK, SGD, USD, ZAR
 
 Completed as an assignment for a course utilizing introductory concepts of data retrieval through API requests.
+
+
+
+<h1>Future Enhancements:</h1>
+<ul>
+  <li> Thorough testing for deficiencies </li>
+  <li> Improve UI Experience with real time updates of Bitcoin exchange rate </li>
+  <li> Implement further resources to offer users information on exchanging to specified currencies </li>
+</ul>
