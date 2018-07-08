@@ -19,5 +19,5 @@ Completed as an assignment for a course utilizing introductory concepts making H
 
 </br>
 
+<img src = "Images/Bitcoin_Exchange.png" width = "275" height = "450" />
 
-![Alt text](Images/Bitcoin_Exchange.png)
