@@ -13,7 +13,16 @@ Completed as an assignment for a course utilizing introductory concepts making H
 <ul>
   <li> Thorough testing for deficiencies </li>
   <li> Improve UI Experience with real time updates of Bitcoin exchange rate </li>
-  <li> Implement further resources to offer users information on exchanging to specified currencies </li>
+  <li> Implement further resources to offer users information on exchange information </li>
+  <li> Add formatting options for each currencies based on locale </li>
+</ul>
+
+</br>
+
+<h1>Lates Adjustments:</h1>
+<ul>
+  <li> 07/07/2018 - Adjusted color scheme </li>
+  <li> 07/07/2018 - Implemented initialization customizations to UIPickerView upon launch </li>
 </ul>
 
 
