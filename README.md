@@ -20,6 +20,6 @@ Completed as an assignment for a course utilizing introductory concepts making H
 </br>
 
 <p>
-  <img src = "Images/BitcoinExchange_Launch.png" width = "275" height = "450" hspace = "20" />
-  <img src = "Images/UIPickerView_USD.png" width = "275" height = "450" hspace = "20" />
+  <img src = "Images/BitcoinExchange_Launch.png" width = "275" height = "450" hspace = "20" alt = "Bitcoin Exchange Launch Image" />
+  <img src = "Images/UIPickerView_USD.png" width = "275" height = "450" hspace = "20" alt = "UIPickerView USD Sample Image" />
 </p>
