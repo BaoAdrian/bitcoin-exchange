@@ -19,7 +19,7 @@ Completed as an assignment for a course utilizing introductory concepts making H
 
 </br>
 
-<h1>Lates Adjustments:</h1>
+<h1>Latest Adjustments:</h1>
 <ul>
   <li> 07/07/2018 - Adjusted color scheme </li>
   <li> 07/07/2018 - Implemented initialization customizations to UIPickerView upon launch </li>
