@@ -8,6 +8,8 @@ Project made to view the current, real-time exchange rate of Bitcoin in a variet
 Completed as an assignment for a course utilizing introductory concepts making HTTP networking requests with Alamofire and JSON parsing data retrieved through API requests.
 
 
+<br>
+
 
 <h1>Future Enhancements:</h1>
 <ul>
