@@ -1,11 +1,23 @@
-# BitcoinTicker
-Learn to make iOS Apps with [The App Brewery](https://www.appbrewery.co) 📱 | Project Stub | (Swift 4.0/Xcode 9) - Bitcoin Ticker App
+# Bitcoin_Exchange
+Basic bitcoin exchange rate tracker developed using Swift 4 in Xcode 9.4.1. 
+Project made to view the current, real-time exchange rate of Bitcoin in a variety of currencies including:
+<li> AUD, BRL, CAD, CNY, EUR, GBP, HKD, IDR, ILS, INR, JPY, MXN, NOK, NZD, PLN, RON, RUB, SEK, SGD, USD, ZAR </li>
 
-Beginner: Download the starter project files as .zip and extract the files to your desktop.
+</br>
 
-Pro: Git clone to your Xcode projects folder.
+Completed as an assignment for a course utilizing introductory concepts making HTTP networking requests with Alamofire and JSON parsing data retrieved through API requests.
 
-## Finished App
-![Finished App](http://i.giphy.com/l0HlQGzz2MQCKIBI4.gif)
 
-Copyright © The App Brewery
+
+<h1>Future Enhancements:</h1>
+<ul>
+  <li> Thorough testing for deficiencies </li>
+  <li> Improve UI Experience with real time updates of Bitcoin exchange rate </li>
+  <li> Implement further resources to offer users information on exchanging to specified currencies </li>
+</ul>
+
+
+</br>
+
+<img src = "Images/UIPickerView_USDSample.png" width = "275" height = "450" />
+
