@@ -20,4 +20,4 @@ Completed as an assignment for a course utilizing introductory concepts making H
 </br>
 
 
-![Alt text](Bitcoin_Exchange.png)
+![Alt text](Images/Bitcoin_Exchange.png)
