@@ -12,8 +12,6 @@ import SwiftyJSON
 
 class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate {
     
-    
-    
     let baseURL = "https://apiv2.bitcoinaverage.com/indices/global/ticker/BTC"
     let currencyArray = ["AUD", "BRL","CAD","CNY","EUR","GBP","HKD","IDR","ILS","INR","JPY","MXN","NOK","NZD","PLN","RON","RUB","SEK","SGD","USD","ZAR"]
     
@@ -39,6 +37,12 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     
     
     
+    // Initiliaze picker view with default font adjustments
+    public func pickerView(_ pickerView: UIPickerView, attributedTitleForRow row: Int, forComponent component: Int) -> NSAttributedString? {
+        let titleData = currencyArray[row]
+        let myTitle = NSAttributedString(string: titleData, attributes: [NSAttributedStringKey.font:UIFont(name: "Helvetica", size: 17.0)!,NSAttributedStringKey.foregroundColor:UIColor.white])
+        return myTitle
+    }
     
     // Tells the UIPickerView that we only have one column of items to choose from
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
@@ -107,9 +111,9 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
 
         // Gets the current asking price of Bitcoin
         if let bitcoinResults = json["ask"].double {
-            
+
             // Update price label
-            bitcoinPriceLabel.text = currencySelected + String(format: "%.2f", bitcoinResults)
+            bitcoinPriceLabel.text = "\(currencySelected) " + String(format: "%.2f", bitcoinResults)
             
         } else {
             
@@ -117,13 +121,15 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
             bitcoinPriceLabel.text = "Price Unavailable"
             
         }
-
-        
+ 
     }
 
-
-
-
-
 }
+
+
+
+
+
+
+
 
